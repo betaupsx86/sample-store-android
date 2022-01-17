@@ -50,12 +50,13 @@ class Settings(context: Context) {
          * [example-mobile-backend](https://github.com/stripe/example-mobile-backend),
          * the URL will be something like `https://hidden-beach-12345.herokuapp.com/`.
          */
-        private const val BASE_URL = "put your base url here"
+//        private const val BASE_URL = "http://10.0.2.2:5000/"
+        private const val BASE_URL = "https://prodigi-nft.herokuapp.com/"
 
         /**
          * Set to publishable key from https://dashboard.stripe.com/test/apikeys
          */
-        private const val PUBLISHABLE_KEY = "pk_test_your_key_goes_here"
+        private const val PUBLISHABLE_KEY = "pk_test_51IYNZ1CvsvxkcQCpiVzBXskCGWOQz86nCYd2knLxDhmipPECAYKgrttwuOwSDiqp9swBJcy0hOjUbJCxvIOBp6Qc00Utwcy7WU"
 
         /**
          * Optionally, set to a Connect Account id to use for API requests to test Connect
